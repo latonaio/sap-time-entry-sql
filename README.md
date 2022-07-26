@@ -1,5 +1,5 @@
 # sap-time-entry-sql  
-sap-time-entry-sql は、主にエッジアプリケーションにおいて、SAPと連携された時間入力データを保存するSQLテーブルを作成するためのレポジトリです。  
+sap-time-entry-sql は、主にエッジアプリケーションにおいて、SAPと連携されたタイムエントリーデータを保存するSQLテーブルを作成するためのレポジトリです。  
 sap-time-entry-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。
 
 ## 前提条件  
@@ -11,7 +11,7 @@ https://api.sap.com/api/timeentry/overview
 ## sqlの設定ファイル
 sap-time-entry-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-time-entry-collection-data.sql（SAP タイムエントリー - タイムエントリーデータ）    
+* sap-time-entry-sql-time-entry-collection-data.sql（SAP タイムエントリー - タイムエントリーデータ）    
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。

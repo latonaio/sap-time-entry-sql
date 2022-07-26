@@ -1,5 +1,6 @@
-CREATE TABLE `sap_time_entry_collection_data`
+CREATE TABLE `sap_time_entry_time_entry_collection_data`
 (
+			`ID`                                    varchar(35) NOT NULL,
             `ObjectID`                              varchar(70) DEFAULT NULL,
 			`UUID`                                  tinyint(1) DEFAULT NULL,
 			`InternalID`                            varchar(10) DEFAULT NULL,
@@ -14,7 +15,6 @@ CREATE TABLE `sap_time_entry_collection_data`
 			`LanguageCode`                          varchar(2) DEFAULT NULL,
 			`EndDateTime`                           tinyint(1) DEFAULT NULL,
 			`HeaderReferenceUUID`                   tinyint(1) DEFAULT NULL,
-			`ID`                                    varchar(35) NOT NULL,
 			`InformationLifeCycleStatusCode`        varchar(2) DEFAULT NULL,
 			`ItemReferenceUUID`                     tinyint(1) DEFAULT NULL,
 			`BusinessTransactionDocumentTypeCode`   varchar(15) DEFAULT NULL,
